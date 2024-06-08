@@ -33,3 +33,6 @@
 
 (pretty-print "(s-expression? '(x y z))")
 (pretty-print (s-expression? '(x y z)))
+
+(pretty-print "(s-expression? '((x y) z))")
+(pretty-print (s-expression? ((x y) z)))
